@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", Sans
+}
+
+.header{
+	position: relative;
+	width: 100vw;
+}
+
+.header-container{
+	position: relative;
+	width: 100%;
+	padding: 2rem;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.header-image{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -10;
+	width:inherit;
+	object-fit:fill
+}
+
+.header-title{
+	color: white;
+	font-size: 6rem;
+	font-weight: bold;
+}
+
+.header-subtitle{
+	color: white;
+	font-size: 3rem;
+	
+}
+
+.nav-container{
+	display: flex;
+	justify-content: space-between;
+	padding-left:50px;
+
+}
+
+.profile-img{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	margin-top: -100px;
+}
+
+.nav{
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	padding: 1rem 3rem;
+	/* background-color: pink; */
+}
+
+.nav-list{
+	display: flex;
+	gap: 2rem;
+
+	list-style-type: none;
+}
+
+.nav-item{
+	font-size: 1.5rem;
+}
+
+.container{
+	padding: 4rem;
+}
