@@ -33,7 +33,6 @@
 	</header>
 	
 	<div class="container">
-		<!-- <canvas id="canvas" ></canvas> -->
 		<article class="article">
 		<h2>Assignment 1</h2>
 		<h3>Description</h3>
