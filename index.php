@@ -22,9 +22,9 @@
 			<nav class="nav">
 				<ul class="nav-list">
 					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item">About</li>
+					<li class="nav-item"><a href="">About</a></li>
 					<li class="nav-item"><a href="/assignments">Assigments</a></li>
-					<li class="nav-item">Extra Credit</li>
+					<li class="nav-item"><a href="">Extra Credit</a></li>
 				</ul>
 			</nav>
 		</div>
