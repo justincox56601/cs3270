@@ -13,6 +13,7 @@
 	<header class="header">
 		<div class="header-container">
 			<img src="./assets/swe-header.jpg" alt="software engineering header" class="header-image">
+			<canvas class="header-canvas" ></canvas>
 			<p class="header-title">CS3270</p>
 			<p class="header-subtitle">Advanced Web Programming</p>
 			
@@ -30,6 +31,7 @@
 		</div>
 		
 	</header>
+	
 	<div class="container">
 		<article class="article">
 		<h2>Assignment 1</h2>
@@ -57,6 +59,6 @@
 
 	
 
-	<script src="script.js"></script>
+	<script src="script.js" type="module"></script>
 </body>
 </html>
