@@ -1,38 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CS3270</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-</head>
-<body>
-	<header class="header">
-		<div class="header-container">
-			<canvas class="header-canvas" ></canvas>
-			<p class="header-title">CS3270</p>
-			<p class="header-subtitle">Advanced Web Programming</p>
-			
-		</div>
-		<div class="nav-container">
-			<img src="./assets/dwarf_1.png" alt="" class="profile-img">
-			<nav class="nav">
-				<ul class="nav-list">
-					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="">About</a></li>
-					<li class="nav-item"><a href="/assignments">Assigments</a></li>
-					<li class="nav-item"><a href="">Extra Credit</a></li>
-				</ul>
-			</nav>
-		</div>
-		
-	</header>
-	
-	<div class="container">
-		<article class="article">
+<?php
+	$data =[
+		'pageTitle' => 'Home'
+	];
+
+	include_once __dir__ . '/components/header-component.php';
+?>
+
+<main class="container">
+	<article class="article">
 		<h2>Assignment 1</h2>
 		<h3>Description</h3>
 		<p>
@@ -54,10 +29,5 @@
 		<h3 style="margin-top:1rem;">Delivery</h3>
 		<p>email justin.cox@bemidjistate.edu with the link to your working homepage. (https://cs.bemidjistate.edu/{yourIdNumber})</p>
 	</article>
-	</div>
-
-	
-
-	<script src="script.js" type="module"></script>
-</body>
-</html>
+</main>
+<?php include_once __dir__ . '/components/footer-component.php' ?>
