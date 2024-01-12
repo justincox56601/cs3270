@@ -1,4 +1,7 @@
 <?php
+$config = parse_ini_file('../config.ini', true);
+$environment = $config['ENVIRONMENT'];
+$URL_BASE = $config[$environment]['URL_BASE'];;
 $data = [
     'pageTitle' => 'Assignments',
     "assignments" =>[
