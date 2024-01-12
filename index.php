@@ -1,9 +1,12 @@
 <?php
-	$data =[
-		'pageTitle' => 'Home'
-	];
+$config = parse_ini_file('config.ini', true);
+$environment = $config['ENVIRONMENT'];
+$URL_BASE = $config[$environment]['URL_BASE'];
+$data =[
+	'pageTitle' => 'Home'
+];
 
-	include_once __dir__ . '/components/header-component.php';
+include_once __dir__ . '/components/header-component.php';
 ?>
 
 <main class="container">
