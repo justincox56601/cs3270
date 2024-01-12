@@ -1,25 +1,20 @@
 <?php
-//WARNING:  This component is used inside of to the Header-Component.  No need to inlcude this anywhere manually.
-// $config = parse_ini_file('../config.ini', true);
-// $environment = $config['ENVIRONMENT'];
-// $URL_BASE = $config[$environment]['URL_BASE'];
-
 $links =[
 	[
 		'title' => 'Home',
-		'route' => '../'
+		'route' => '/'
 	],
 	[
 		'title' => 'About',
-		'route' => '../about'
+		'route' => '/about'
 	],
 	[
 		'title' => 'Assignments',
-		'route' => '../assignments'
+		'route' => '/assignments'
 	],
 	[
 		'title' => 'Extra Credit',
-		'route' => '../extra-credit'
+		'route' => '/extra-credit'
 	]
 ];
 ?>
@@ -30,7 +25,7 @@ $links =[
 			<?php foreach($links as $link){ ?>
 				<li class='nav-item' >
 					<a 
-						href="<?php echo $link['route'] ?>"
+						href="<?php echo $URL_BASE . $link['route'] ?>"
 						class='<?php echo ($data['pageTitle'] === $link['title']) ? 'active' : '' ?>'
 					>
 						<?php echo $link['title']?>
