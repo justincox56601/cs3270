@@ -6,6 +6,41 @@ $data = [
     'pageTitle' => 'Assignments',
     "assignments" =>[
         [
+            'title' => 'Assignment 4 - Bank',
+            'description' =>"You are to create a demo bank website.  This will include a log in page, an account summary page, and a transfer page.  For now, all of the data can be stored in a data array on each page since we haven't gotten to sharing data yet. Styling and CSS as well as any extra JavaScript will be left up you you individually.  The primary concern with this assignment is making a functioning 3 page website.  This will be located at https://cs.bemidjistate.edu/{yourId}/banking",
+            'acceptanceCriteria' => [
+                "A banking homepage at https://cs.bemidjistate.edu/{yourId}/banking",
+                "a homepage with a logo and a form to log in",
+                "If the user is logged in, navigation should appear for account, and transfer pages.  This should not appear if the user is not logged in",
+                "On the account page, there should be a welcome message to the effect of 'Welcome Name'",
+                "The account page should show several checking accounts along with a total balance at the bottom of the list of accounts.",
+                "The accounts total should not be hardcoded onto the page.  Rather use loops and math to calcualte it.",
+                "The transfers page should include a form that lets the user select a from account and a to account as well as an amount",
+                "upon submission the page should check to see if there is sufficient funds to do this transfer.  This check should be done in PHP not JS",
+                "If there is sufficient funds, it should update the amounts and display the new amounts",
+                "If there are not sufficient funds, the accounts should not be updated and a message displayed to the user that there are insufficient funds.",
+                "This site should use proper file structure as well as include statements",
+                "A working link to the github repo for this bank project"
+            ],
+            'delivery' => "No deliver is needed for this assingment.  When I grade, I will go to https://cs.bemidjistate.edu/{yourId}/banking and expect it there"
+        ],
+        [
+            'title' => 'Assignment 3 - Refactor',
+            'description' =>"You are to refactor your protfolio based on the in class exercises we did on Januar 18th and 23rd.  These refactors make use of the power of PHP include statements and separate site content from site  structure.",
+            'acceptanceCriteria' => [
+                "Head is in it's own component",
+                "hader is in it's own component",
+                "Navigation is in it's own component",
+                "Footer is in it's own component",
+                "File structure is refactored into a pattern that makes sense",
+                "config.ini is properly implemented",
+                "ABS_PATH adn URL_ROOT are implemented properly",
+                "Your main homepage points to https://cs.bemidjistate.edu/{yourId}",
+                "a working link to your github repo for this project"
+            ],
+            'delivery' => "No deliver is needed for this assingment.  When I grade, I will go to https://cs.bemidjistate.edu/{yourId} and expect it there"
+        ],
+        [
             'title' => 'Assignment 2 - About Page',
             'description' =>"You are to create an 'About' page",
             'acceptanceCriteria' => [
@@ -36,6 +71,7 @@ $data = [
             ],
             'delivery' => "email justin.cox@bemidjistate.edu with the link to your working homepage. (https://cs.bemidjistate.edu/{yourIdNumber})"
         ],
+        
         
         
     ]
