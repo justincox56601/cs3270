@@ -20,3 +20,4 @@
 	<?php include_once 'nav-component.php'; ?>
 	
 </header>
+<main class="container">
