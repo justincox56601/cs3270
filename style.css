@@ -5,9 +5,18 @@
 	font-family: "Montserrat", Sans
 }
 
+p, ul{
+	margin-bottom: 1rem;
+}
+
+.indented-list{
+	margin-left: 3rem;
+}
+
 .header{
 	position: relative;
-	width: 100vw;
+	width: 100%;
+	overflow: hidden;
 }
 
 .header-container{
@@ -71,7 +80,6 @@
 	width: 100%;
 	justify-content: flex-end;
 	padding: 1rem 3rem;
-	/* background-color: pink; */
 }
 
 .nav-list{
@@ -100,9 +108,24 @@
 	color: forestgreen;
 }
 .container{
+	position: relative;
 	padding: 4rem;
 }
 
 .article{
 	margin-bottom: 2rem;
+}
+
+.effect-control-panel{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 300px;
+	z-index: 100;
+}
+
+.canvas-container{
+ position:relative;
+ overflow: hidden;
 }
