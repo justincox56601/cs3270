@@ -16,7 +16,7 @@ $data = [
                 "A working link (opens in a new tab) to the github repo for the project if there is one",
                 "A working link (opens in a new tab) to the live web version for the project if there is one",
                 "NO LESS THAN 5 projects in the list.  perferabbly more, If you need to make them up to do this, then so be it but consider them as projects you want to do soon",
-                "for a quick example that I put together for this check out, https://portfolio-bde56.firebaseapp.com"
+                "for a quick example that I put together for this check out, <a href='https://portfolio-bde56.firebaseapp.com/projects' target='_blank'>https://portfolio-bde56.firebaseapp.com/projects</a>"
             ],
             'delivery' => "No deliver is needed for this assingment.  When I grade, I will go to https://cs.bemidjistate.edu/{yourId}/projects and expect it there",
             'dueDate' => 'February 24, 2024',
